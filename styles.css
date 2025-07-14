@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+header {
+    background-image: url("photos/Calma.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px; /* Or try 400px to test */
+    color:#b85c7e;
+    text-align: justify;
+    font-weight: bolder;
+    font-size: 1.9rem;
+    padding-block:280px;
+    width:auto;
+    font-family: 'Playfair Display', serif;
+}
+header h1,p{
+   padding-left: 100px;
+}
+header button{
+    color: #b85c7e;
+    background-color: #b89fa8;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: large;
+    text-align: center;
+    display: block;
+    width: 200px;
+    margin: 20px ;
+    border: none;
+    border-radius: 8px;
+    margin-left: 100px;
+
+}
+.explore{
+    font-family: 'Playfair Display', serif;
+    font-size: xx-large;
+    font-weight: 700;
+    background: linear-gradient(90deg, #b85c7e, #b89fa8);
+    color:#f9f7f3;
+    padding-block: 100px;
+    text-align: center;
+}
+.about{
+    text-align: center;
+    color: #b85c7e;
+    background-color: #fae5ed;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    font-size: large;
+    padding-block: 100px;
+}
+.about ul{
+    text-align: left;
+    margin-left: 450px;
+}
+.two-columns{
+    padding-block: 60px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    color: #b85c7e;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    background-color:#f6cfdd;
+    gap: 30px;
+    padding-top: 60px;
+}
+.two-columns p{
+    margin-left: 0;
+}
+.two-columns img{
+    width: 800px;
+    height:500px;
+    padding-right: 40px;
+}
+.phone {
+    display: flex;
+    justify-content: center;
+    background-color: #fae5ed; 
+    padding-inline: 30px;
+    padding-block:30px ;
+}
+.phone img{
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.down{
+    color:#b85c7e;
+    text-align: center;
+    font-weight: bolder;
+    align-items: center;
+    font-size: 1.9rem;
+    background-color:#fae5ed;
+    padding-block: 60px;
+}
+.down button{
+    color: #b85c7e;
+    background-color: #b89fa8;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: large;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+}
